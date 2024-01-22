@@ -1,0 +1,31 @@
+theme = "gruvbox_dark_hard"
+
+[editor]
+line-number = "relative"
+mouse = true
+auto-completion = true
+auto-format = true
+auto-pairs = true
+text-width = 120
+rulers = [ 80, 140 ]
+cursorline = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+
+[editor.lsp]
+display-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+display-signature-help-docs = true
+snippets = true
+goto-reference-include-declaration = true
